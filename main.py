@@ -5,3 +5,5 @@ if __name__ == "__main__":
     print("conflicto HIJUEPUTA")
     print("holi att: Cortes")
     print('YOUR NAME')
+
+    print("holi, ya no puteo")
