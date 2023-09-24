@@ -4,6 +4,7 @@ if __name__ == "__main__":
     print("llegue seguns mores")
     print("conflicto HIJUEPUTA")
     print("holi att: Cortes")
-    print('YOUR NAME')
+    print("YOUR NAME")
 
-    print('Nueva Rama')
+    print("Nueva Rama")
+# Los amo mucho gashas
