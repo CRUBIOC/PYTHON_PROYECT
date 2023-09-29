@@ -1,10 +1,14 @@
-if __name__ == "__main__":
-    print("holi mochos")
-    print("llegue de primis bye")
-    print("llegue seguns mores")
-    print("conflicto HIJUEPUTA")
-    print("holi att: Cortes")
-    print("YOUR NAME")
+from fastapi import FastAPI
+from fastapi.templating import Jinja2Templates
+from starlette.requests import Request
 
-    print("Nueva Rama")
-# Los amo mucho gashas
+app = FastAPI()
+
+templates = Jinja2Templates(directory="templates")
+
+@app.get("/")
+def read_root(request: Request):
+    data = {"message": "Pagina de inicio del proyecto pagina web de peliculas."}
+
+    return templates.TemplateResponse("main_template.html", {"request": request, "data": data})
+
