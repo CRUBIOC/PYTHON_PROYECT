@@ -11,4 +11,3 @@ def read_root(request: Request):
     data = {"message": "Pagina de inicio del proyecto pagina web de peliculas."}
 
     return templates.TemplateResponse("main_template.html", {"request": request, "data": data})
-
