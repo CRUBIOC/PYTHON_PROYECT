@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/Features.css') }}">
+    <title>El Mocho</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">{{ data.message }}</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>&copy; 2023 Mi Página Web</p>
+    </footer>
+</body>
+
+</html>
