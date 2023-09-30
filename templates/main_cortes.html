@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="{{ url_for('static', path='/css/estilos.css') }}" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+</head>
+
+
+<body>
+    <div class= "pagina">
+        <h2>Cortes</h2>
+        <h1>{{ data.message }}</h1>
+        <div class="container">
+             <div class="row">
+                 <h5 class= "">
+                     COLUMNA 1
+                 </h5>
+                 <h5 class= "">
+                     COLUMNA 2
+                 </h5>
+     
+             </div>
+        </div>
+        <button>
+             FAVORITOS
+        </button>
+    </div>
+</body>
+</html>
